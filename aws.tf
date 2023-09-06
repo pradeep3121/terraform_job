@@ -4,6 +4,6 @@ resource "aws_instance" "pradeep-instance" {
     count=1  
 
     tags = {
-        Name = "pradeep-ins"
+        Name = "pradeep-instance"
     }
 }
